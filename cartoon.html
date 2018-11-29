@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/首页模板.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>我看过的</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<style type="text/css">
+body {
+    background-image: url(pictures/back3.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+</style>
+<script type="text/javascript" src="Js/jquery.min.js"></script>
+</head>
+
+<body>
+<script language =javascript >
+var curIndexni=0;
+//时间间隔(单位毫秒)，每秒钟显示一张，数组共有5张图片放在Photos文件夹下。
+var timeInterval=2000;
+var arrni=new Array();
+arrni[0]="pictures/ni1.jpg";
+arrni[1]="pictures/ni2.jpg";
+arrni[2]="pictures/ni3.jpg";
+arrni[3]="pictures/ni4.jpg";
+setInterval(changeImgni,timeInterval);
+function changeImgni()
+{
+var ni=document.getElementById("ni");
+if (curIndexni==arrni.length-1)
+{
+curIndexni=0;
+}
+else
+{
+curIndexni+=1;
+}
+ni.src=arrni[curIndexni];
+}
+
+var curIndexdao=0;
+//时间间隔(单位毫秒)，每秒钟显示一张，数组共有5张图片放在Photos文件夹下。
+var arrdao=new Array();
+arrdao[0]="pictures/dao1.jpg";
+arrdao[1]="pictures/dao2.jpg";
+arrdao[2]="pictures/dao3.jpg";
+arrdao[3]="pictures/dao4.jpg";
+setInterval(changeImgdao,timeInterval);
+function changeImgdao()
+{
+var dao=document.getElementById("dao");
+if (curIndexdao==arrdao.length-1)
+{
+curIndexdao=0;
+}
+else
+{
+curIndexdao+=1;
+}
+dao.src=arrdao[curIndexdao];
+}
+
+var curIndexming=0;
+//时间间隔(单位毫秒)，每秒钟显示一张，数组共有5张图片放在Photos文件夹下。
+var arrming=new Array();
+arrming[0]="pictures/ming1.jpg";
+arrming[1]="pictures/ming2.jpg";
+arrming[2]="pictures/ming3.jpg";
+arrming[3]="pictures/ming4.jpg";
+setInterval(changeImgming,timeInterval);
+function changeImgming()
+{
+var ming=document.getElementById("ming");
+if (curIndexming==arrming.length-1)
+{
+curIndexming=0;
+}
+else
+{
+curIndexming+=1;
+}
+ming.src=arrming[curIndexming];
+}
+
+
+</script>
+<table align="center" width="1024" border="0">
+  <tr>
+    <td align="center"><img src="pictures/我的动漫.png" width="336" height="90" /></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0">
+      <tr>
+        <td align="center"><a href="index.html"><img src="pictures/首页.png" width="101" height="44" /></a></td>
+        <td align="center"><a href="cartoon.html"><img src="pictures/动漫.png" width="100" height="45" /></a></td>
+        <td align="center"><a href="resours.html"><img src="pictures/资源.png" width="101" height="45" /></a></td>
+        <td align="center"><a href="news.html"><img src="pictures/资讯.png" width="101" height="45" /></a></td>
+        <td align="center"><a href="anout us.html"><img src="pictures/关于我们.png" width="176" height="46" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><!-- InstanceBeginEditable name="动漫" -->
+      <table width="94%" border="0">
+        <tr>
+          <td><img id=ni src="pictures/ni1.jpg" width="452" height="601" /></td>
+          <td><p>故事发生的地点是在每千年回归一次的彗星造访过一个月之前，日本</p>
+            <p>飞驒市的乡下小镇糸守町。在这里女高中生三叶每天都过着忧郁的生</p>
+            <p>活，而她烦恼的不光有担任镇长的父亲所举行的选举运动，还有家传</p>
+            <p>神社的古老习俗。在这个小小的城镇，周围都只是些爱瞎操心的老</p>
+            <p>人。为此三叶对于大都市充满了憧憬。<br />
+        </p>
+<p>然而某一天，自己做了一个变成男孩子的梦。这里有着陌生的房间、</p>
+<p>陌生的朋友。而眼前出现的则是东京的街道。三叶虽然感到困惑，但</p>
+<p>是能够来到朝思暮想的都市生活，让她觉得神清气爽。另一方面在</p>
+<p>东京生活的男高中生立花泷也做了个奇怪的梦，他在一个从未去</p>
+<p>过的深山小镇中，变成了女高中生。两人就这样在梦中邂逅了彼此。</p></td>
+        </tr>
+        <tr>
+          <td><img id=dao src="pictures/dao1.jpg" width="453" height="640" /></td>
+          <td><p>2022 年，大厂牌电子机械制造商&quot;ARGUS&quot;开发出－&quot;NERvGear&quot;－能</p>
+            <p>连结虚拟世界的机器。完全的虚拟实境终于能够实现。主角桐人使用</p>
+            <p> NERvGear 游玩 VR MMORPG《Sword Art Online》的玩家，幸运地参与</p>
+            <p>过封测并买下正式版的桐人，和正式营运就马上&quot;完全潜行&quot;享受着正</p>
+            <p>式版的 SAO 世界。<br />
+          </p>
+            <p>就在游戏四小时多后，桐人发现到&quot;登出&quot;指令竟然消失。认为只是系</p>
+          <p>统暂时出错的桐人和开始陷入混乱的所有玩家们一起被传送到开始</p>
+          <p>地点广场，并传来游戏设计者的死亡游戏说明：不能登出是游戏的正</p>
+          <p>常现象，只有打倒位于&quot;艾恩葛朗特&quot;顶楼的头目，达成&quot;完全攻略&quot;才</p>
+          <p>是离开这个世界唯一的方法……</p></td>
+        </tr>
+        <tr>
+          <td><img id=ming src="pictures/ming1.jpg" width="455" height="629" /></td>
+          <td><p>高中生侦探工藤新一与毛利兰在游乐园游玩时发现两个行动诡异的</p>
+          <p>黑衣男子，便跟踪他们，不料被灌下一种叫&quot;APTX4869&quot;的神秘毒药，</p>
+          <p>然而因为药物副作用，新一的身体竟回到孩童状态。为不使周围的人</p>
+          <p>受到牵连，他化名为&quot;江户川柯南&quot;，寄住在毛利兰家中，用阿笠博士</p>
+          <p>发明的手表型麻醉枪让毛利小五郎睡着，接着用蝴蝶结变声器模仿</p>
+          <p>他的声音来进行推理，解决了许多案件，并一直寻找着黑衣组织的人</p>
+          <p>的下落，希望有朝一日将其绳之以法，并变回原来的样子。</p></td>
+        </tr>
+      </table>
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td align="center"><h3>&nbsp;</h3>
+    <h3>Copyright©2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSEE201801&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;陈柏余</h3></td>
+  </tr>
+</table>
+<div class="snow-container" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;"></div>
+<script type="text/javascript" src="Js/all.js"></script>
+</body>
+<!-- InstanceEnd --></html>
+
+
